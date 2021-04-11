@@ -1,0 +1,23 @@
+{
+  "dimensions": {
+    "width": 1000,
+    "height": 750
+  },
+  "msec_per_frame": 20,
+
+  "distance_per_frame": 2,
+  "rotation_per_frame": 2,
+
+  "landmarks": [[100, 200], [200, 350], [300, 500], [400, 650], [600, 650], [700, 500], [800, 350], [900, 200]],
+  "goals": [[175, 150], [275, 300], [350, 425], [450, 575], [550, 575], [650, 425], [725, 300], [825, 150]],
+  "initial_position": [500, 375],
+  "initial_angle": 0,
+
+  "num_particles": 500,
+
+  "noise": {
+    "move_std": 1,
+    "rotate_std": 0.01,
+    "sensor_std": 4
+  }
+}
