@@ -1,4 +1,4 @@
-# Localization simulation
+# Robot localization simulation
 
 This projects simulates the execution of a robot which has to go through all goal positions to take photos of plants. First, it takes some random moves to locate itself and then it moves goal to goal. The simulation uses a Particle Filter to localize the robot and it is displayed with the library **Pygame**.
 
@@ -11,9 +11,8 @@ This projects simulates the execution of a robot which has to go through all goa
 
 ### Execution
 
-To execute the simulation, run:
+To execute the simulation, simply run ``main.py``.
 
-``python3 main.py``
 
 ### Scripts and resources
 
